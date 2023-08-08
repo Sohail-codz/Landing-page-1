@@ -1,0 +1,122 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+header{
+    width: 100%;
+    height: 640px;
+    background-color: #FFCD9E;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer{
+    width: 100%;
+    height: 300px;
+    background-color: #282828;
+    display: flex;
+    justify-content: space-around;
+}
+
+.headtag{
+    display: flex;
+    justify-content: center;
+    padding: 90px;
+    font-size: 50px;
+    height: 0px;
+    color: #282828;
+}
+.para{
+    display: flex;
+    justify-content: center;
+    color: #484848;
+    margin-left: 90px;
+    margin-top: 50px;
+    font-size: 26px;
+    width: 610px;
+    font-weight: 500;
+    line-height: 37px;
+    word-spacing: 4px;
+}
+.tagline{
+    display: flex;
+    color: #282828;
+    margin-left: 90px;
+    margin-top: 30px;
+    font-size: 20px;
+    width: 610px;
+    font-weight: 800;
+    line-height: 37px;
+}
+#mail{
+    margin-left: 90px;
+    margin-top: 30px;
+    padding: 22px;
+    width: 390px;
+    font-size: 21px;
+    font-weight: 600;
+    border: 4px solid black;
+    border-radius: 12px;
+}
+button{
+    margin-left: 20px;
+    padding: 24px;
+    width: 270px;
+    border: 4px solid b#282828;
+    background-color: #282828;
+    border-radius: 12px;
+    font-size: 21px;
+    font-weight: 550;
+    color: #FFF;
+}
+.txt{
+    display: flex;
+    justify-content: center;
+    margin-left: 90px;
+    padding: 22px;
+    width: 390px;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 12px;
+    color: #FFF;
+}
+.vecim{
+    display: flex;
+    height: cover;
+    width: cover;
+    margin-right: 136px;
+}
+
+.leftside{
+    list-style-type: none;
+    justify-content: center;
+    margin-left: -90px;
+    padding: 49px;
+    width: 390px;
+    line-height: 40px;
+    font-size: 25px;
+    font-weight: 500;
+    border-radius: 12px;
+    color: #FFF;
+}
+.rightside{
+    list-style-type: none;
+    justify-content: center;
+    text-align: right;
+    margin-right: -90px;
+    padding: 49px;
+    width: 390px;
+    line-height: 40px;
+    font-size: 25px;
+    font-weight: 500;
+    border-radius: 12px;
+    color: #FFF;
+}
+.ico{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+
